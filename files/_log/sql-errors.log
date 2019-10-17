@@ -1,0 +1,715 @@
+[2019-10-08 19:01:51] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT `states_id`, COUNT(*) AS cpt
+                         FROM `glpi_lines` WHERE (  1 ) 
+                              AND `is_deleted` = 0
+                              AND `is_template` = 0
+                         GROUP BY `states_id`
+  Error: Unknown column 'is_template' in 'where clause'
+  Backtrace :
+  inc/state.class.php:138                            
+  front/report.state.php:49                          State::showSummary()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:01:52] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT `states_id`, COUNT(*) AS cpt
+                         FROM `glpi_softwareversions` WHERE (  1 ) 
+                              AND `is_deleted` = 0
+                              AND `is_template` = 0
+                         GROUP BY `states_id`
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/state.class.php:138                            
+  front/report.state.php:49                          State::showSummary()
+  {"user":"2@localhost.localdomain","mem_usage":"0.015\", 2.54Mio)"} 
+[2019-10-08 19:11:22] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/config.class.php:289        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/hook.php:192                    PluginMreportingConfig->createFirstConfig()
+  inc/plugin.class.php:521                           plugin_mreporting_install()
+  front/plugin.form.php:47                           Plugin->install()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:11:22] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/config.class.php:289        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/hook.php:192                    PluginMreportingConfig->createFirstConfig()
+  inc/plugin.class.php:521                           plugin_mreporting_install()
+  front/plugin.form.php:47                           Plugin->install()
+  {"user":"2@localhost.localdomain","mem_usage":"0.124\", 2.80Mio)"} 
+[2019-10-08 19:11:49] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:11:49] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:349         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showPie()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.082\", 2.42Mio)"} 
+[2019-10-08 19:12:14] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:12:14] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.003\", 2.35Mio)"} 
+[2019-10-08 19:12:25] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:12:26] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.011\", 2.35Mio)"} 
+[2019-10-08 19:12:36] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:12:36] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.005\", 2.35Mio)"} 
+[2019-10-08 19:12:55] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:12:55] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:349         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showPie()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.104\", 2.35Mio)"} 
+[2019-10-08 19:13:10] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:13:10] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.004\", 2.35Mio)"} 
+[2019-10-08 19:16:39] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:18:02] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-08 19:21:36] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-11 18:19:39] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT COUNT(glpi_tickets.id) as total        
+      FROM glpi_tickets
+      LEFT JOIN glpi_entities ON glpi_tickets.entities_id = glpi_entities.id
+      WHERE glpi_tickets.is_deleted = '0' 
+      AND DATE_FORMAT( glpi_tickets.date, '%Y' ) IN () 
+      AND glpi_tickets.entities_id IN (0) 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+      AND glpi_tickets.entities_id IN (0)' at line 5
+  Backtrace :
+  plugins/dashboard/front/main.php:273               
+  {"user":"2@localhost.localdomain"} 
+[2019-10-11 18:20:37] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT DISTINCT gi.id, gi.name
+			FROM glpi_s gi, glpi_items_tickets git, glpi_tickets gt
+			WHERE gi.is_deleted = 0
+			AND gi.id = git.items_id
+			AND git.itemtype = ''
+			AND gi.entities_id IN (0) 
+			AND gt.id = git.tickets_id
+			AND gt.date BETWEEN '2019-01-13 00:00:00' AND '2019-10-11 23:59:59'
+			ORDER BY gi.name 
+  Error: Table 'glpi.glpi_s' doesn't exist
+  Backtrace :
+  plugins/dashboard/front/reports/rel_assets.php:298 
+  {"user":"2@localhost.localdomain"} 
+[2019-10-11 18:20:52] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: 
+SELECT gi.id AS id, gi.name AS name, count(gt.id) AS conta
+FROM glpi_tickets gt, glpi_s gi, glpi_items_tickets git
+WHERE git.itemtype = ''
+AND git.items_id = gi.id
+AND gt.is_deleted = 0
+AND git.tickets_id = gt.id
+AND gt.date BETWEEN '2010-10-01 00:00:00' AND '2019-10-11 23:59:59'
+AND gt.entities_id IN (0)
+GROUP BY gi.name
+ORDER BY conta DESC
+LIMIT 25 
+  Error: Table 'glpi.glpi_s' doesn't exist
+  Backtrace :
+  ...d/front/graphs/inc/grafbar_ativo_mes.inc.php:48 
+  plugins/dashboard/front/graphs/ativos.php:160      include()
+  {"user":"2@localhost.localdomain","mem_usage":"0.000\", 2.13Mio)"} 
+[2019-10-11 18:20:58] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: 
+SELECT gi.id AS id, gi.name AS name, count(gt.id) AS conta
+FROM glpi_tickets gt, glpi_s gi, glpi_items_tickets git
+WHERE git.itemtype = ''
+AND git.items_id = gi.id
+AND gt.is_deleted = 0
+AND git.tickets_id = gt.id
+AND gt.date BETWEEN '2010-10-01 00:00:00' AND '2019-10-11 23:59:59'
+AND gt.entities_id IN (0)
+GROUP BY gi.name
+ORDER BY conta DESC
+LIMIT 25 
+  Error: Table 'glpi.glpi_s' doesn't exist
+  Backtrace :
+  ...d/front/graphs/inc/grafbar_ativo_mes.inc.php:48 
+  plugins/dashboard/front/graphs/ativos.php:160      include()
+  {"user":"2@localhost.localdomain","mem_usage":"0.000\", 2.13Mio)"} 
+[2019-10-11 18:21:40] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT COUNT(glpi_tickets.id) as total        
+      FROM glpi_tickets
+      LEFT JOIN glpi_entities ON glpi_tickets.entities_id = glpi_entities.id
+      WHERE glpi_tickets.is_deleted = '0' 
+      AND DATE_FORMAT( glpi_tickets.date, '%Y' ) IN () 
+      AND glpi_tickets.entities_id IN (0) 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+      AND glpi_tickets.entities_id IN (0)' at line 5
+  Backtrace :
+  plugins/dashboard/front/main.php:273               
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:01:52] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:01:52] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.061\", 2.37Mio)"} 
+[2019-10-14 19:01:53] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:01:53] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.002\", 2.37Mio)"} 
+[2019-10-14 19:02:18] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:02:18] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.002\", 2.37Mio)"} 
+[2019-10-14 19:05:33] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:05:33] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.007\", 2.37Mio)"} 
+[2019-10-14 19:15:35] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:15:35] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:349         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showPie()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.003\", 2.37Mio)"} 
+[2019-10-14 19:16:39] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:16:39] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.001\", 2.37Mio)"} 
+[2019-10-14 19:17:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:17:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.006\", 2.37Mio)"} 
+[2019-10-14 19:17:46] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:17:46] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.001\", 2.37Mio)"} 
+[2019-10-14 19:17:53] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:17:54] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:540         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showSunburst()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.923\", 2.41Mio)"} 
+[2019-10-14 19:18:00] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:00] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.818\", 2.37Mio)"} 
+[2019-10-14 19:18:07] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:07] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.012\", 2.37Mio)"} 
+[2019-10-14 19:18:10] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:10] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.005\", 2.37Mio)"} 
+[2019-10-14 19:18:15] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:15] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.002\", 2.37Mio)"} 
+[2019-10-14 19:18:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:44] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.018\", 2.37Mio)"} 
+[2019-10-14 19:18:51] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:51] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.006\", 2.37Mio)"} 
+[2019-10-14 19:18:57] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:18:57] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:1026        PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showVstackbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.002\", 2.37Mio)"} 
+[2019-10-14 19:19:01] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/common.class.php:626        PluginMreportingBaseclass->__construct()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:19:01] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SET lc_time_names = 'es_419'
+  Error: Unknown locale: 'es_419'
+  Backtrace :
+  plugins/mreporting/inc/baseclass.class.php:46      
+  plugins/mreporting/inc/graph.class.php:94          PluginMreportingBaseclass->__construct()
+  plugins/mreporting/inc/graph.class.php:150         PluginMreportingGraph->initGraph()
+  plugins/mreporting/inc/common.class.php:643        PluginMreportingGraph->showHbar()
+  plugins/mreporting/front/graph.php:42              PluginMreportingCommon->showGraph()
+  {"user":"2@localhost.localdomain","mem_usage":"0.002\", 2.37Mio)"} 
+[2019-10-14 19:24:54] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:25:28] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:26:33] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:29:16] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:29:30] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_plugin_mreporting_profiles` (`profiles_id`) VALUES ('3')
+  Error: Duplicate entry '3-0' for key 'profiles_id_reports'
+  Backtrace :
+  inc/dbmysql.class.php:832                          
+  inc/commondbtm.class.php:659                       DBmysql->insert()
+  inc/commondbtm.class.php:1141                      CommonDBTM->addToDB()
+  plugins/mreporting/inc/profile.class.php:185       CommonDBTM->add()
+  plugins/mreporting/inc/profile.class.php:85        PluginMreportingProfile->createAccess()
+  inc/commonglpi.class.php:485                       PluginMreportingProfile::displayTabContentForItem()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@localhost.localdomain"} 
+[2019-10-14 19:35:19] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT COUNT(glpi_tickets.id) as total        
+      FROM glpi_tickets
+      LEFT JOIN glpi_entities ON glpi_tickets.entities_id = glpi_entities.id
+      WHERE glpi_tickets.is_deleted = '0' 
+      AND DATE_FORMAT( glpi_tickets.date, '%Y' ) IN () 
+      AND glpi_tickets.entities_id IN (0) 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+      AND glpi_tickets.entities_id IN (0)' at line 5
+  Backtrace :
+  plugins/dashboard/front/main.php:273               
+  {"user":"6@localhost.localdomain"} 
+[2019-10-14 19:35:25] glpisqllog.ERROR: DBmysql::query() in /var/www/html/glpi/inc/dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: SELECT COUNT(glpi_tickets.id) as total        
+      FROM glpi_tickets
+      LEFT JOIN glpi_entities ON glpi_tickets.entities_id = glpi_entities.id
+      WHERE glpi_tickets.is_deleted = '0' 
+      AND DATE_FORMAT( glpi_tickets.date, '%Y' ) IN () 
+      AND glpi_tickets.entities_id IN (0) 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+      AND glpi_tickets.entities_id IN (0)' at line 5
+  Backtrace :
+  plugins/dashboard/front/main.php:273               
+  {"user":"6@localhost.localdomain"} 

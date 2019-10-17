@@ -1,0 +1,19 @@
+{
+    "require-dev": {
+        "glpi-project/tools": "^0.1"
+    },
+    "require": {
+        "masnathan/odtphp": "dev-teclib"
+    },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/teclib/odtphp/"
+        }
+    ]
+}

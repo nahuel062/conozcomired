@@ -1,0 +1,100 @@
+2019-10-03 19:46:01 [@localhost.localdomain]
+Interno #1: Lanzar createinquest
+2019-10-04 18:53:46 [@localhost.localdomain]
+Interno #1: Lanzar ticketrecurrent
+2019-10-07 18:49:02 [@localhost.localdomain]
+Interno #1: Lanzar planningrecall
+2019-10-07 19:11:27 [2@localhost.localdomain]
+Interno #1: Lanzar queuednotification
+2019-10-07 19:16:31 [2@localhost.localdomain]
+Interno #1: Lanzar queuednotificationclean
+2019-10-07 19:23:07 [2@localhost.localdomain]
+Interno #1: Lanzar temp
+2019-10-07 19:28:50 [2@localhost.localdomain]
+Interno #1: Lanzar mailgateerror
+2019-10-07 19:34:12 [2@localhost.localdomain]
+Interno #1: Lanzar contract
+2019-10-07 19:57:00 [2@localhost.localdomain]
+Interno #1: Lanzar infocom
+2019-10-07 20:08:12 [2@localhost.localdomain]
+Interno #1: Lanzar mailgate
+2019-10-07 20:14:01 [2@localhost.localdomain]
+Interno #1: Lanzar session
+2019-10-07 20:14:35 [@localhost.localdomain]
+Dirección de puerta de enlace inválida
+2019-10-08 18:24:37 [2@localhost.localdomain]
+Interno #1: Lanzar graph
+2019-10-08 18:30:53 [2@localhost.localdomain]
+Interno #1: Lanzar reservation
+2019-10-08 18:36:27 [2@localhost.localdomain]
+Interno #1: Lanzar closeticket
+2019-10-08 18:44:14 [2@localhost.localdomain]
+Interno #1: Lanzar alertnotclosed
+2019-10-08 18:49:18 [2@localhost.localdomain]
+Interno #1: Lanzar slaticket
+2019-10-08 18:54:58 [2@localhost.localdomain]
+Interno #1: Lanzar olaticket
+2019-10-08 19:00:28 [2@localhost.localdomain]
+Interno #1: Lanzar createinquest
+2019-10-08 19:11:19 [2@localhost.localdomain]
+Interno #1: Lanzar ticketrecurrent
+2019-10-08 19:14:50 [@localhost.localdomain]
+Interno #1: Lanzar watcher
+2019-10-08 19:16:23 [2@localhost.localdomain]
+Interno #1: Lanzar planningrecall
+2019-10-08 19:18:35 [@localhost.localdomain]
+Interno #1: Lanzar queuednotification
+2019-10-08 19:18:45 [@localhost.localdomain]
+Interno #1: Lanzar mailgate
+2019-10-08 19:20:30 [@localhost.localdomain]
+Interno #1: Lanzar temp
+2019-10-08 19:21:00 [@localhost.localdomain]
+Interno #1: Lanzar slaticket
+2019-10-08 19:21:56 [2@localhost.localdomain]
+Interno #1: Lanzar olaticket
+2019-10-11 17:42:21 [@localhost.localdomain]
+Interno #1: Lanzar queuednotificationclean
+2019-10-11 17:42:35 [@localhost.localdomain]
+Interno #1: Lanzar queuednotification
+2019-10-11 17:43:00 [@localhost.localdomain]
+Interno #1: Lanzar planningrecall
+2019-10-11 17:43:10 [@localhost.localdomain]
+Interno #1: Lanzar graph
+2019-10-11 17:43:25 [@localhost.localdomain]
+Interno #1: Lanzar slaticket
+2019-10-11 17:44:39 [@localhost.localdomain]
+Interno #1: Lanzar olaticket
+2019-10-11 17:59:02 [6@localhost.localdomain]
+Interno #1: Ejecutar mailgate
+2019-10-11 18:05:47 [2@localhost.localdomain]
+Interno #1: Lanzar mailgateerror
+2019-10-11 18:19:12 [2@localhost.localdomain]
+Interno #1: Lanzar reservation
+2019-10-11 18:53:17 [2@localhost.localdomain]
+Interno #1: Lanzar contract
+2019-10-11 19:00:29 [2@localhost.localdomain]
+Interno #1: Lanzar infocom
+2019-10-14 19:01:42 [2@localhost.localdomain]
+Interno #1: Lanzar ticketrecurrent
+2019-10-14 19:07:36 [2@localhost.localdomain]
+Interno #1: Lanzar session
+2019-10-14 19:13:44 [2@localhost.localdomain]
+Interno #1: Lanzar temp
+2019-10-14 19:18:45 [2@localhost.localdomain]
+Interno #1: Lanzar closeticket
+2019-10-14 19:24:10 [2@localhost.localdomain]
+Interno #1: Lanzar alertnotclosed
+2019-10-14 19:26:49 [@localhost.localdomain]
+Interno #1: Lanzar createinquest
+2019-10-14 19:27:12 [@localhost.localdomain]
+Interno #1: Lanzar watcher
+2019-10-14 19:27:51 [@localhost.localdomain]
+Interno #1: Lanzar queuednotification
+2019-10-14 19:28:01 [@localhost.localdomain]
+Interno #1: Lanzar slaticket
+2019-10-14 19:28:07 [@localhost.localdomain]
+Interno #1: Lanzar planningrecall
+2019-10-14 19:29:16 [2@localhost.localdomain]
+Interno #1: Lanzar olaticket
+2019-10-14 19:35:12 [6@localhost.localdomain]
+Interno #1: Ejecutar mailgate
